@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+
 .H-1{
     text-align: center;
     color: rgb(248, 248, 250);
     font-size: 45px;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: roboto;
     margin: 7%;
     letter-spacing: 10px;
     text-decoration: overline;
@@ -13,7 +16,7 @@
     color: rgb(253, 253, 253);
     font-size: 35px;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: roboto;
     margin-top: 10%;
     margin-left: 4%;
     letter-spacing: 6px;
@@ -40,7 +43,7 @@
 .text-me {
     color: rgba(254, 254, 255, 0.856);
     font-size: 22px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: roboto;
     letter-spacing: 3px;
     margin: 4%;
 }
@@ -59,7 +62,7 @@
     color: rgb(253, 253, 253);
     font-size: 35px;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: roboto;
     margin-top: 10%;
     letter-spacing: 6px;
     text-decoration: underline;
@@ -122,7 +125,7 @@ font-size: 20px;
 
     color: rgba(254, 254, 255, 0.856);
     font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:roboto;
     letter-spacing: 3px;
     text-align: center;
     margin-top: 15%;
@@ -160,7 +163,7 @@ font-size: 20px;
 }
 .console-container {
  
-  font-family:fantasy;
+  font-family:roboto;
   font-size:2.8em;
   text-align:center;
   height:400px;
@@ -219,7 +222,7 @@ body::-webkit-scrollbar {
 
     color: rgba(254, 254, 255, 0.856);
     font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: roboto;
     letter-spacing: 3px;
     text-align: center;
     margin-top: 15%;
@@ -232,7 +235,7 @@ body::-webkit-scrollbar {
         color: rgb(248, 248, 250);
         font-size: 30px;
         font-weight: bold;
-        font-family: fantasy;
+        font-family: roboto;
         margin: 7%;
         letter-spacing: 10px;
         text-decoration: underline;
@@ -242,7 +245,7 @@ body::-webkit-scrollbar {
         color: rgb(253, 253, 253);
         font-size: 20px;
         font-weight: bold;
-        font-family: fantasy;
+        font-family: roboto;
         margin-top: 10%;
         margin-left: 4%;
         letter-spacing: 6px;
@@ -271,7 +274,7 @@ body::-webkit-scrollbar {
     .text-me {
         color: rgba(254, 254, 255, 0.856);
         font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: roboto;
         letter-spacing: 3px;
         margin: 4%;
     }
@@ -290,7 +293,7 @@ body::-webkit-scrollbar {
         color: rgb(253, 253, 253);
         font-size: 20px;
         font-weight: bold;
-        font-family: fantasy;
+        font-family: roboto;
         margin-top: 10%;
         letter-spacing: 6px;
         text-decoration: underline;
@@ -363,7 +366,7 @@ body::-webkit-scrollbar {
     
         color: rgba(254, 254, 255, 0.856);
         font-size: 11px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:roboto;
         letter-spacing: 3px;
         text-align: center;
         margin-top: 15%;
@@ -435,7 +438,7 @@ body::-webkit-scrollbar {
     
         color: rgba(254, 254, 255, 0.856);
         font-size: 13px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: roboto;
         letter-spacing: 3px;
         text-align: center;
         margin-top: 15%;
@@ -450,7 +453,7 @@ body::-webkit-scrollbar {
     .span2{
         color:white;
         font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: roboto;
         letter-spacing: 3px;
     }
   }
