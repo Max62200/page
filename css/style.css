@@ -28,6 +28,7 @@
     
 }
 
+*{scroll-behavior: smooth;}
 .img-me{
     width: 20%;
     box-shadow: 15px 15px 15px black;
@@ -41,6 +42,7 @@
     font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 3px;
+    margin: 4%;
 }
 
 .border-line{
@@ -125,3 +127,100 @@ font-size: 20px;
     text-align: center;
     margin-top: 15%;
 }
+
+
+.bulle:hover,.bulle:focus{
+    background:rgba(251, 250, 252, 0.4);
+    box-shadow:0 1px 0 rgb(255, 255, 255);
+  }
+  .bulle:hover span, .bulle:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+  }
+  
+  .bulle span{
+    position:absolute;
+    margin-top:-2%;
+    margin-left:-24%;
+    color:rgb(9, 25, 95);
+    background:rgba(231, 231, 235, 0.9);
+    padding:15px;
+    border-radius:3px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  /* //text animation */
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:fantasy;
+  font-size:2.8em;
+  text-align:center;
+  height:400px;
+  width:800px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:-8%;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+/* //text animation */
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(12, 28, 117, 0.835);
+    outline: 1px solid rgb(255, 255, 255);
+  }
+
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(12, 11, 11); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  .contact{
+
+    color: rgba(254, 254, 255, 0.856);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 15%;
+  }
