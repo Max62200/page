@@ -20,11 +20,7 @@
         </div></a> 
 
              
-                 <div class='console-container'>
-                <span id='text'></span>
-                <div class='console-underscore' id='console'>&#95;
-                </div>
-                </div> <br><br>
+                 <h2 class="H-2">Maxence PODEVIN,</h2><br><br>
                  <p class="text-me">âgé de 29 ans apprenant au centre de formation SIMPLON.
                 Passionné d'informatique et de nouvelles technologies je me redirige vers les métiers du numérique notamment dans le développement Web / Mobile après avoir été magasinier-réceptionniste durant 5ans.
                 Je me suis formé sur différents langages pendant mes formations comme HTML 5, CSS 3, PHP/MY SQL, JAVASCRIPT mais aussi sur différents Frameworks comme BOOTSTRAP et SYMFONY et différents CMS comme WORDPRESS et PRESTASHOP.
@@ -79,56 +75,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
    <script> 
-consoleText(['Maxence PODEVIN.', 'Developpeur Web'], 'text',['white']);
 
-function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ['#fff'];
-  var visible = true;
-  var con = document.getElementById('console');
-  var letterCount = 1;
-  var x = 1;
-  var waiting = false;
-  var target = document.getElementById(id)
-  target.setAttribute('style', 'color:' + colors[0])
-  window.setInterval(function() {
-
-    if (letterCount === 0 && waiting === false) {
-      waiting = true;
-      target.innerHTML = words[0].substring(0, letterCount)
-      window.setTimeout(function() {
-        var usedColor = colors.shift();
-        colors.push(usedColor);
-        var usedWord = words.shift();
-        words.push(usedWord);
-        x = 1;
-        target.setAttribute('style', 'color:' + colors[0])
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (letterCount === words[0].length + 1 && waiting === false) {
-      waiting = true;
-      window.setTimeout(function() {
-        x = -1;
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (waiting === false) {
-      target.innerHTML = words[0].substring(0, letterCount)
-      letterCount += x;
-    }
-  }, 120)
-  window.setInterval(function() {
-    if (visible === true) {
-      con.className = 'console-underscore hidden'
-      visible = false;
-
-    } else {
-      con.className = 'console-underscore'
-
-      visible = true;
-    }
-  }, 400)
-}
 //Get the button:
 mybutton = document.getElementById("myBtn");
 

@@ -224,3 +224,233 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-top: 15%;
   }
+
+  @media only screen and (max-width:678px){
+
+    .H-1{
+        text-align: center;
+        color: rgb(248, 248, 250);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: fantasy;
+        margin: 7%;
+        letter-spacing: 10px;
+        text-decoration: underline;
+    }
+    
+    .H-2{
+        color: rgb(253, 253, 253);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: fantasy;
+        margin-top: 10%;
+        margin-left: 4%;
+        letter-spacing: 6px;
+    }
+    
+    .bg-color{
+        background-image: url(../img/flux-code.jpg);
+        background-size: cover ;
+        background-repeat: no-repeat;
+        border: 5px solid white;
+        
+        
+    }
+    
+    
+    
+    *{scroll-behavior: smooth;}
+    .img-me{
+        width: 35%;
+        box-shadow: 15px 15px 15px black;
+        float: left;
+        margin: 3%;
+       
+    }
+    
+    .text-me {
+        color: rgba(254, 254, 255, 0.856);
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+        margin: 4%;
+    }
+    
+    .border-line{
+    
+        margin-top: 5%;
+        border-top: 3px white solid;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+    
+    .H-3{
+    
+        color: rgb(253, 253, 253);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: fantasy;
+        margin-top: 10%;
+        letter-spacing: 6px;
+        text-decoration: underline;
+        margin-left: 5%;
+    
+    }
+    
+    .cercle{
+        margin:20px;
+        width:100px;
+        background:#fafafa;
+        height:100px;
+        text-align:center;
+        border-radius:50%;
+        line-height: 90px;
+        border: 4px solid white;
+        background-color: rgba(0, 0, 255, 0.603);
+        margin-left: 25%;
+       
+      
+    }
+    
+    .cercle:hover{
+    
+        
+        transform: scale(1.2);
+        transition: ease all 500ms;
+        
+    }
+    
+    .stack{
+        font-weight: bold;
+        font-size: 13px;
+        color: white;margin: 2%;
+    }
+    
+    .stack:hover{
+        transition: ease all 500ms;
+        transform: rotate(360deg);
+    }
+    
+    .inline {
+    
+        
+        display: grid;
+        grid-template-areas: "a b" 
+                             "c d "   
+                             ;  
+
+        
+        justify-content: center; 
+        justify-items: center;
+    }
+    
+    
+
+    .UL {
+    margin-left: 30%;
+    color: white;
+    font-size: 20px;
+    
+    
+    }
+    
+    .img-size{
+        width:55%;
+    }
+    
+    .footer{
+    
+        color: rgba(254, 254, 255, 0.856);
+        font-size: 11px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: -15%;
+    }
+    
+    
+    .bulle:hover,.bulle:focus{
+        background:rgba(251, 250, 252, 0.4);
+        box-shadow:0 1px 0 rgb(255, 255, 255);
+      }
+      .bulle:hover span, .bulle:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle span{
+        position:absolute;
+        margin-top:-4%;
+        margin-left:-24%;
+        color:rgb(9, 25, 95);
+        background:rgba(231, 231, 235, 0.9);
+        padding:15px;
+        border-radius:3px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        font-weight: bolder;
+        font-size: 11px;
+      }
+    
+  
+    body::-webkit-scrollbar {
+        width: 1em;
+      }
+       
+      body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+      body::-webkit-scrollbar-thumb {
+        background-color: rgba(12, 28, 117, 0.835);
+        outline: 1px solid rgb(255, 255, 255);
+      }
+    
+    
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 40px; /* Place the button at the bottom of the page */
+        right: 10%; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(12, 11, 11); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 12px; /* Increase font size */
+      }
+      
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+    
+      .contact{
+    
+        color: rgba(254, 254, 255, 0.856);
+        font-size: 13px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: -5% ;
+      }
+  
+
+    .span1{
+        display:none;
+    }
+
+    .span2{
+        color:white;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+    }
+  }
