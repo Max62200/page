@@ -1,15 +1,109 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 
+.container-header{
+
+    background-size:cover ;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid white;
+    height: 500px;
+    background-image: url(../img/codedev.png);
+    
+}
+
+.hover-logo{
+  width:50px;
+  position: relative;
+  top:-55%;
+
+}
+.hover-logo:hover{
+
+  transition: ease all 500ms;
+  transform: rotate(360deg);
+}
+
+.navbar 
+
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 5px solid black;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  letter-spacing: 3px;
+  background-color: rgb(1, 12, 77);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+   padding-right: 10%;
+}
+
+.navbar-nav  li a:hover 
+
+{
+  color: #0c65eb !important;
+}
+
+/*<--- soulignement menu --> */
+
+
+li
+
+{
+    
+    display:inline-block;
+    min-width:50px;
+    
+   
+  
+}
+
+
+li a 
+
+{
+    text-decoration:none;
+    line-height: 70px;
+    padding: 0 10px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+li a:after 
+
+{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+
+li a:hover:after 
+
+{
+    width: 90%;
+    background: #0c65eb;
+}
 
 .H-1{
-    text-align: center;
+    
     color: rgb(248, 248, 250);
     font-size: 45px;
     font-weight: bold;
     font-family: roboto;
-    margin: 7%;
+    margin: 13%;
     letter-spacing: 10px;
-    text-decoration: overline;
+    border: 5px solid white;
+    padding: 1%;
+    position: absolute;
+    margin-left: 25%;
 }
 
 .H-2{
@@ -26,7 +120,8 @@
     background-image: url(../img/flux-code.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
-    border: 5px solid white;
+
+    border-bottom: 5px solid white;
     
     
 }
@@ -36,8 +131,8 @@
     width: 20%;
     box-shadow: 15px 15px 15px black;
     float: left;
-    margin: 3%;
-   
+    margin: 2%;
+   margin-top: 7%;
 }
 
 .text-me {
@@ -45,7 +140,7 @@
     font-size: 22px;
     font-family: roboto;
     letter-spacing: 3px;
-    margin: 4%;
+    margin: 3%;
 }
 
 .border-line{
@@ -70,12 +165,12 @@
 }
 
 .cercle{
-    margin:20px;
+    margin:15px;
     width:100px;
     background:#fafafa;
     height:100px;
     text-align:center;
-    border-radius:100px;
+    border-radius:50%;
     line-height: 90px;
     border: 4px solid white;
     background-color: rgba(0, 0, 255, 0.603);
@@ -84,7 +179,7 @@
 .cercle:hover{
 
     
-    transform: scale(1.35);
+    transform: translateY(-75px);
     transition: ease all 500ms;
     
 }
@@ -157,33 +252,7 @@ font-size: 20px;
     font-size: 15px;
   }
 
-  /* //text animation */
-.hidden {
-  opacity:0;
-}
-.console-container {
- 
-  font-family:roboto;
-  font-size:2.8em;
-  text-align:center;
-  height:400px;
-  width:800px;
-  display:block;
-  position:absolute;
-  color:white;
-  top:0;
-  bottom:0;
-  left:-8%;
-  right:0;
-  margin:auto;
-}
-.console-underscore {
-   display:inline-block;
-  position:relative;
-  top:-0.14em;
-  left:10px;
-}
-/* //text animation */
+
 body::-webkit-scrollbar {
     width: 1em;
   }
